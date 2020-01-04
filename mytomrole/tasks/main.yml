@@ -28,6 +28,6 @@
 
 - name: i want to deploy ravi java war file into webapps  
   get_url:
-    url: http://3.81.172.34:8081/artifactory/mypavan/{BUILD_NUMBER}/target/raviLogin-1.0.war
+    url: http://18.208.176.187:8081/artifactory/mypavan/1/target/raviLogin-1.0.war
     dest: /usr/share/tomcat/webapps/raviLogin-1.0.war
     force_basic_auth: yes
