@@ -1,4 +1,4 @@
-- hosts: all
+- hostfsdfsdfsdfsdfs: all
   become: yes
   roles:
     - {role: mytomrole, when: ansible_os_family =="RedHat"}
